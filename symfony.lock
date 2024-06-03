@@ -238,6 +238,21 @@
     "symfony/asset": {
         "version": "v6.1.0"
     },
+    "symfony/asset-mapper": {
+        "version": "6.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.4",
+            "ref": "6c28c471640cc2c6e60812ebcb961c526ef8997f"
+        },
+        "files": [
+            "assets/app.js",
+            "assets/styles/app.css",
+            "config/packages/asset_mapper.yaml",
+            "importmap.php"
+        ]
+    },
     "symfony/browser-kit": {
         "version": "v6.1.0"
     },
@@ -588,27 +603,11 @@
             "./config/routes/web_profiler.yaml"
         ]
     },
-    "symfony/webpack-encore-bundle": {
-        "version": "1.14",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "1.10",
-            "ref": "642c9239e1c76e037f5b65446d09eba836ea147f"
-        },
-        "files": [
-            "./assets/app.js",
-            "./assets/bootstrap.js",
-            "./assets/controllers.json",
-            "./assets/controllers/hello_controller.js",
-            "./assets/styles/app.css",
-            "./config/packages/webpack_encore.yaml",
-            "./package.json",
-            "./webpack.config.js"
-        ]
-    },
     "symfony/yaml": {
         "version": "v6.1.0"
+    },
+    "symfonycasts/sass-bundle": {
+        "version": "v0.7.0"
     },
     "theseer/tokenizer": {
         "version": "1.2.1"
