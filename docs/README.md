@@ -11,7 +11,7 @@ Pour réaliser votre conversion, vous utiliserez l'API suivante : <a href="https
 
 ## Préparez votre catalogue
 
-Commencez par cloner ce dépôt et lancer l'ensemble des commandes nécessaires pour démarrer le projet (yarn, composer, BDD, etc.).  
+Commencez par cloner ce dépôt et lancer l'ensemble des commandes nécessaires pour démarrer le projet (composer, BDD, etc.).  
 Des fixtures sont déjà en place pour préparer votre catalogue, pensez donc bien à les charger également.
 
 ## Convertir les différentes devises dans la vue de détail d'un produit
